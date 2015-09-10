@@ -7,6 +7,13 @@ Created on 09/09/15
 
 Calcular a parte inteira e fracionaria de um número inteiro
 
+Comentarios em Python podem ser escritos utilizando triple quotes (chamados de
+docstrings), como neste espaco. Isso permite a utilizacao de quaisquer tipo de
+caracteres, incluindo multiplas linhas. Esse metodo permite documentacoes com
+formatacao mais rica e complexa, incluindo exemplos de codigos. Alem disso,
+comentarios de uma linha podem ser feitos com o simbolo #, similar ao utilizado
+em Fortran.
+
 """
 
 # Ler o numero real
