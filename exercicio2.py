@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 
-Created on 03/09/15
-
 @author: Carlos Eduardo Barbosa
 
 Escrever um programa que calcule o valor de pi usando  a serie abaixo,

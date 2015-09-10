@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 
-Created on 09/09/15
-
 @author: Carlos Eduardo Barbosa
 
 Calcular a parte inteira e fracionaria de um número inteiro
