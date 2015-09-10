@@ -28,7 +28,9 @@ def raizes(x):
 
 # O programa "main" de Python é definido apenas pela identacao
 arg = input("Entre com o valor do argumento: ")
-print "Raizes = ", raizes(arg)
+raiz2, raiz3, raiz4, raiz5 = raizes(arg)
+# Exemplo de construcao de string de acordo com a convencao mais moderna
+print "Raizes = {0}, {1}, {2}, {3}".format(raiz2, raiz3, raiz4, raiz5)
 
 
 
