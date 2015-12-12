@@ -21,6 +21,9 @@ def planck(wave, temp):
     Temperatures in K.
 
     Output is converted to ergs/cm2/s/A to reproduce IDL version."""
+    k = 1.380658e-16 # Boltzmann constant in erg / K
+    h = 6.6260755e-27 # Planck constant in erg / s
+    c = 2.99792458e10 # Speed of light in cm / s
     w = wave * 1.e-8 # Convertion to cm
     B = 2 * h * c * c * np.power(w, -5) / (np.exp(h * c / (w * k * temp)) - 1.)
     # Returns Planck's Law in units of ergs/cm2/s/A
